@@ -15,7 +15,7 @@ for (let i = 0; i < 20; i++) {
 console.log(worldGenArray)
 
 function update() {
-    for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 6; i++) {
         for (let row = 0; row < worldGenArray.length; row++) {
             for (let col = 0; col < worldGenArray[row].length; col++) {
                 for (let cell = 0; cell < worldGenArray[row][col].length; cell++) {
